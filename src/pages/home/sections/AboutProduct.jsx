@@ -9,9 +9,9 @@ import {
 
 
 
-import Img1 from "../../../assets/images/showcase1.webp";
+import Img1 from "../../../assets/images/solarpanel.png";
 
-import Img3 from "../../../assets/images/showcase2.webp";
+import Img3 from "../../../assets/images/solarpanel.png";
 import { COMPANY_DATA } from "../../../constants/placeholder";
 
 const AboutProduct = () => {
