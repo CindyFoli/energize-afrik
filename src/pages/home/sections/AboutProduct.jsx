@@ -7,10 +7,10 @@ import {
   RiGlobalLine,
 } from "react-icons/ri";
 
-import newImg from "../../../assets/images/hero1.avif";
+
 
 import Img1 from "../../../assets/images/showcase1.webp";
-import Img2 from "../../../assets/images/showcase3.webp";
+
 import Img3 from "../../../assets/images/showcase2.webp";
 import { COMPANY_DATA } from "../../../constants/placeholder";
 
@@ -316,7 +316,7 @@ const AboutProduct = () => {
             </div>
 
             {/* 3D Rotation Effect with Glass Morphism */}
-            <motion.div
+            {/* <motion.div
               className="mb-24 relative h-80 flex items-center justify-center backdrop-blur-lg bg-gray-900/70 border border-gray-800/50 rounded-2xl overflow-hidden"
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300 }}
@@ -334,7 +334,7 @@ const AboutProduct = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-500/20 to-blue-500/20 mix-blend-overlay rounded-full"></div>
               </motion.div>
-            </motion.div>
+            </motion.div> */}
 
             {/* Environmental Impact - Interactive Counter */}
             <motion.div
